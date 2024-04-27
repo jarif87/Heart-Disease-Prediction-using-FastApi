@@ -29,7 +29,7 @@ async def predict(request: Request,
                   Diabetic: int = Form(...),
                   PhysicalActivity: int = Form(...),
                   GenHealth: int = Form(...),
-                  SleepTime: int = Form(...),
+                  SleepTime: float = Form(...),
                   Asthma: int = Form(...),
                   KidneyDisease: int = Form(...),
                   SkinCancer: int = Form(...)):
